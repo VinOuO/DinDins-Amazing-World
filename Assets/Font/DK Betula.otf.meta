@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 228daef6729d4a343a3792b6d5b5faab
+timeCreated: 1529303415
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DK Betula
+  fontNames:
+  - DK Betula
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

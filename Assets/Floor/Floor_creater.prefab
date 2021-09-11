@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1303357716245162}
+  m_IsPrefabParent: 1
+--- !u!1 &1303357716245162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4096220291551212}
+  - component: {fileID: 114597215992444292}
+  m_Layer: 0
+  m_Name: Floor_creater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4096220291551212
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303357716245162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114597215992444292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303357716245162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b78aacd7cb62e64387e08b2d9857b56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Is_Loading: 0
+  Is_All_Set: 0
+  Grid_X_Num: 30
+  Grid_Y_Num: 30
+  Floor_Type:
+  - {fileID: 1468537545672180, guid: 73a2cbd168947b040ad4626c18dce481, type: 2}
+  - {fileID: 1220177903038062, guid: bb2257713133bff45b52686b23146274, type: 2}
+  - {fileID: 1323033757641562, guid: 07d15df372a618e41abb393df201521c, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1220177903038062, guid: bb2257713133bff45b52686b23146274, type: 2}
+  - {fileID: 1323033757641562, guid: 07d15df372a618e41abb393df201521c, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1532304686229524, guid: ccca97fc5c95eb24bbac44bc4caa6013, type: 2}
+  - {fileID: 1820649957568778, guid: cca60261b9e865e4eb61b3b2525c458e, type: 2}
+  - {fileID: 1854131728434232, guid: 9def147aaddd9f94b8804970aeffcaa5, type: 2}
+  - {fileID: 1142698294850908, guid: 5ffcf173a487f29458caed3181dc8b67, type: 2}
+  - {fileID: 0}
+  - {fileID: 1748489341996082, guid: 4f5b6f5f91d95744ba3d4dd72baebc85, type: 2}
+  - {fileID: 1170478928810582, guid: 208a4ae2780f36a42946920a864b1a65, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1532304686229524, guid: ccca97fc5c95eb24bbac44bc4caa6013, type: 2}
+  - {fileID: 1854131728434232, guid: 9def147aaddd9f94b8804970aeffcaa5, type: 2}
+  - {fileID: 1820649957568778, guid: cca60261b9e865e4eb61b3b2525c458e, type: 2}
+  - {fileID: 1142698294850908, guid: 5ffcf173a487f29458caed3181dc8b67, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  Fog: {fileID: 1051804254689994, guid: 358f7d8ba2e24264ea3ee5dc655e1893, type: 2}
+  Night_Mask: {fileID: 1713008967936954, guid: 61a460884c692b24588d3a107e8aa545, type: 2}
+  Area_Num: 30
+  Loading_Percent: 0
+  Class_Created: 000000010000
+  Type_Num: 000000000200000002000000040000000200000000000000
+  Class_Creating: 3
+  Floor_Num: 0
+  Floor_Run_ID: 0
